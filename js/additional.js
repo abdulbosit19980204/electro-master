@@ -10,10 +10,14 @@ window.addEventListener('DOMContentLoaded', () => {
 
     heartsBtn.forEach((item, idx) => {
         item.addEventListener('click', () => {
+            item.classList.toggle('fa-heart-o')
+            item.classList.toggle('fa-heart')
             item.classList.toggle('heart-love')
             i++
             wishNum.textContent = String(i)
+
         })
+
 
     })
 

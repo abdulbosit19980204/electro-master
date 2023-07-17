@@ -22,7 +22,7 @@ window.addEventListener('DOMContentLoaded', () => {
     })
 
 
-    const deadline = '2023-04-29 08:23:00'
+    const deadline = '2024-04-29 08:23:00'
 
 
 
